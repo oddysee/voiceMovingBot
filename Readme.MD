@@ -4,7 +4,7 @@
 
 for windows - .\Scripts\activate
 
-Start with following instructions here : http://flask.pocoo.org/docs/0.12/quickstart/#a-minimal-application
+2. Continue with following instructions here : http://flask.pocoo.org/docs/0.12/quickstart/#a-minimal-application
 
-
-$env:FLASK_APP = 'start.py'
+3. $env:FLASK_APP = 'start.py'
+   flask run

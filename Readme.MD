@@ -1,5 +1,11 @@
 # Setup
 
+## The easy way
+
+`docker build -f Dockerfile .`
+
+## The hard way
+
 1. Install [Flask](http://flask.pocoo.org/docs/0.12/installation/#virtualenv).
 
     For windows - `.\Scripts\activate`

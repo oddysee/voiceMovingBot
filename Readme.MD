@@ -2,7 +2,7 @@
 
 ## The easy way
 
-`docker build -f Dockerfile .`
+`docker-compose up --build`
 
 ## The hard way
 

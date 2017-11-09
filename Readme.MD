@@ -1,10 +1,19 @@
 # Setup
 
-1. Install http://flask.pocoo.org/docs/0.12/installation/#virtualenv
+## The easy way
 
-for windows - .\Scripts\activate
+`docker build -f Dockerfile .`
 
-2. Continue with following instructions here : http://flask.pocoo.org/docs/0.12/quickstart/#a-minimal-application
+## The hard way
 
-3. $env:FLASK_APP = 'start.py'
-   flask run
+1. Install [Flask](http://flask.pocoo.org/docs/0.12/installation/#virtualenv).
+
+    For windows - `.\Scripts\activate`
+
+2. Continue with following instructions [here](http://flask.pocoo.org/docs/0.12/quickstart/#a-minimal-application).
+
+3. 
+    ```bash
+    $env:FLASK_APP = 'start.py'
+    flask run
+   ```
